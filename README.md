@@ -1,0 +1,3 @@
+This is an implementation of isolation forest.
+
+With `sklearn.ensemble.IsolationForest()`, we can easily apply isolation forest algorithm to the tasks at hand, but it's always good practice to implement any algorithm from scratch for a thorough understanding. Therefore, I converted the pseudo-code of isolation trees (see `isolation-forest.pdf`) into Python classes. All codes are in the `iforest.py` script, including an improved version over the original algorithm.
